@@ -13,7 +13,7 @@ body .nav {
     padding: .5em 1em;
 }
 
-body .nav .nav-inner img {
+body .nav img {
     height: 30px;
     display: block;
     float: left;
