@@ -1,4 +1,11 @@
-# LookLive server
+# HTML/CSS optimisation
+
+## Baseline
+
+![Feed baseline](/screenshots/master_speed_test-feed.png)
+Format: ![Baseline image](url)
+
+<!-- # LookLive server
 
 The project you're looking at is an [express.js](http://expressjs.com) project. You'll use it to get set up a development environment where you're
 going to optimize the way this project works. In it's current state, the css is messy, the rendering isn't modern and
@@ -41,4 +48,4 @@ appearance id.
 * `/api/product/:uuid` <- returns a single product, including similar and bargain products. Replace `:uuid` with the 
 product id.
 
-The API returns JSON (for now).
+The API returns JSON (for now). -->
