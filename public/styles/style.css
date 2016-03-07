@@ -1,4 +1,4 @@
-body .inner-wrapper {
+body main {
     padding: 50px;
 }
 
@@ -8,43 +8,43 @@ body {
     margin: 0;
 }
 
-body .nav {
+body nav {
     background-color: #252525;
     padding: .5em 1em;
 }
 
-body .nav img {
+body nav img {
     height: 30px;
     display: block;
     float: left;
 }
 
-body .nav .nav-items {
+body nav .nav-items {
     list-style: none;
     float: right;
     margin: 0 auto;
 }
 
-body .nav .nav-items li {
+body nav .nav-items li {
     float: left;
     height: 100%;
     line-height: 30px;
     margin-right: 15px;
 }
 
-body .nav .nav-items li a {
+body nav .nav-items li a {
     color: white;
     text-decoration: none;
 }
 
-body .nav .nav-items li a img {
+body nav .nav-items li a img {
     height: 1em;
     position: relative;
     margin-right: .3em;
     top: 6px;
 }
 
-body .nav .nav-items li a:hover {
+body nav .nav-items li a:hover {
     color: #d84a4a;
 }
 
