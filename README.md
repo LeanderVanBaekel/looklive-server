@@ -2,8 +2,20 @@
 
 ## Baseline
 
+Feed speed test
 ![Feed baseline](/screenshots/master_speed_test-feed.png)
-Format: ![Baseline image](url)
+
+Detail speed test
+![Detail baseline](/screenshots/master_speed_test-detail.png)
+
+## Exerxise 2
+
+Feed speed test
+![Feed baseline](/screenshots/exercise2_speed_test-feed.png)
+
+Detail speed test
+![Detail baseline](/screenshots/exercise2_speed_test-detail.png)
+
 
 <!-- # LookLive server
 
