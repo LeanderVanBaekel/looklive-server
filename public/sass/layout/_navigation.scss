@@ -1,0 +1,40 @@
+.navigation {
+    background-color: #252525;
+    padding: 0.5em 1em;
+    -webkit-display: flex;
+    display: flex;   
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+    .navigation__logo {
+        display: inline-block;
+        height: 30px;
+    }
+
+    .navigation__items {
+        list-style: none;
+
+        li {
+            display: inline-block;
+            height: 100%;
+            line-height: 30px;
+            margin-right: 15px;
+        }
+
+        a {
+            color: white;
+            text-decoration: none;
+
+            &:hover {
+                color: #d84a4a;
+            }
+        }
+
+        img {
+            height: 1em;
+            margin-right: .3em;
+        }
+    }
