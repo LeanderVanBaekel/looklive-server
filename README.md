@@ -25,6 +25,8 @@ Before optimising the header image
 After optimising the header image
 ![After optimising the header image](/screenshots/new_image_speed_test-feed.png)
 
+After changing icons to inline svg's
+![After changing icons to inline svg's](/screenshots/icons_to_svg-speed_test-feed.png)
 
 <!-- # LookLive server
 

@@ -32,8 +32,9 @@ nav img {
     text-decoration: none;
 }
 
-.nav-items img {
+.nav-items svg {
     height: 1em;
+    fill: white;
     display: inline-block;
     margin-right: .3em;
 }
