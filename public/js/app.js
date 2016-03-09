@@ -14,7 +14,7 @@ $(document).ready(function(){
 (function(){
 
 	'use strict';
-
+	// Je roept hier een IFFE waar je (nog) niets mee doet, misscien kun je de code hierboven er in stoppen?
 	
 
 }());
