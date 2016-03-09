@@ -8,13 +8,14 @@ Feed speed test
 Detail speed test
 ![Detail baseline](/screenshots/master_speed_test-detail.png)
 
-## Exercise 2
+
+## Optimise HTML, CSS & images
 
 Feed speed test
-![Feed exercise2](/screenshots/exercise2_speed_test-feed.png)
+![Feed exercise2](/screenshots/html-css_speed_test-feed.png)
 
 Detail speed test
-![Detail exercise2](/screenshots/exercise2_speed_test-detail.png)
+![Detail exercise2](/screenshots/html-css_speed_test-detail.png)
 
 
 <!-- # LookLive server
