@@ -61,7 +61,7 @@
     var dataRequestObj = {
         dataRequest: function (searchQuery, cb) {
             var urlData = { // URL elements, with a function to tape them together
-                baseUrl : "http://localhost:3000/api/appearance/",
+                baseUrl : "http://localhost:3000/api/",
                 searchQuery: searchQuery,
                 request : function(){
                         return pegasus(this.baseUrl + this.searchQuery);
@@ -104,12 +104,21 @@
             history.pushState(null, null, event.target.pathname);
             // window.location.href = event.target.href;
             // xhr request!!
-            dataRequestObj.dataRequest(event.target.dataset.uuid, function (requestData) {
+            var id = "appearance/" + event.target.dataset.uuid;
+            dataRequestObj.dataRequest(id, function (requestData) {
                 console.log(requestData);
                 document.querySelector('main').innerHTML = requestData;
             });
-            
         });
+    };
+
+    window.onpopstate = function (e) {
+        console.log(window.location);
+        if (window.location.pathname == "/") {
+            dataRequestObj.dataRequest("feed" , function (requestData) {
+            document.querySelector('main').innerHTML = requestData;
+            });
+        };
     };
 
 }());
