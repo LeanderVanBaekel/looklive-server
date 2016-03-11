@@ -66,6 +66,7 @@ After removing the Jquery script
 
 ## Added srcset
 
+This will only add performance for the mobile/tablet users
 
 
 
