@@ -1,4 +1,4 @@
-# HTML/CSS optimisation
+<!-- # HTML/CSS optimisation
 
 ## Baseline
 
@@ -33,6 +33,45 @@ After changing icons to inline svg's
 
 After removing the Jquery script
 ![After changing icons to inline svg's](/screenshots/old_image_speed_test-feed.png)
+
+
+
+ -->
+
+ # HTML/CSS optimisation
+
+## Baseline
+
+Feed speed test
+
+![Feed baseline](/screenshots/1base.png)
+
+
+
+## Optimise HTML, CSS & image
+
+After optimising the header image
+
+![After optimising CSS HTML and imag](/screenshots/2html/css/img.png)
+
+
+
+## Optimising javascript
+
+After removing the Jquery script
+
+![Jquery removed](/screenshots/3jquery.png)
+
+
+
+## Added srcset
+
+
+
+
+
+
+
 
 
 
