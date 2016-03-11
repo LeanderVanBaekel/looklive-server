@@ -118,6 +118,12 @@
             dataRequestObj.dataRequest("feed" , function (requestData) {
             document.querySelector('main').innerHTML = requestData;
             });
+        } else {
+            var id = window.location.href.split('/');
+            dataRequestObj.dataRequest(id[4], function (requestData) {
+                console.log(requestData);
+                document.querySelector('main').innerHTML = requestData;
+            });
         };
     };
 
