@@ -42,7 +42,9 @@ After removing the Jquery script
 
 ## Baseline
 
-Feed speed test
+Every test is done at 4mb/s in Chrome Canary.
+
+Speed test
 
 ![Feed baseline](/screenshots/1base.png)
 
@@ -70,8 +72,14 @@ This will only add performance for the mobile/tablet users
 
 
 
+## SPA
+
+By making the page not reloading the header and navigation when you navigate to a different page. There will be a performance boost and data-saving.
 
 
+## Final result
+
+![Final result](/screenshots/final.png)
 
 
 
