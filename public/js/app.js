@@ -66,6 +66,7 @@
     //         event.preventDefault();
     //         history.pushState(null, null, event.target.pathname);
     //         // window.location.href = event.target.href;
+    //          xhr request!!
     //         console.log(event);
     //     });
     // };
