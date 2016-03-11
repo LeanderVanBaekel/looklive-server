@@ -13,7 +13,7 @@
         } else {
             document.addEventListener('DOMContentLoaded', fn);
         }
-    }
+    };
 
     /**
      * Set the classes on the appearence page.
@@ -49,12 +49,30 @@
                 event.currentTarget.classList.add('product-indicator-active');
             });
         });
-    }
+    };  
 
     ready(function () {
         if (/appearance/.test(window.location.href)) {
             appearance();
         }
     });
+
+
+    // logic for SPA
+    // var links = document.querySelectorAll('.product-link');
+
+    // for (var i = 0; i < links.length; i++) {
+    //     links[i].addEventListener('click', function(event) {
+    //         event.preventDefault();
+    //         history.pushState(null, null, event.target.pathname);
+    //         // window.location.href = event.target.href;
+    //         console.log(event);
+    //     });
+    // };
+
 }());
+
+
+
+
 
