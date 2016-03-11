@@ -50,9 +50,9 @@ Feed speed test
 
 ## Optimise HTML, CSS & image
 
-After optimising the header image
+After optimising the header image and made icons inline svg
 
-![After optimising CSS HTML and imag](/screenshots/2html/css/img.png)
+![After optimising CSS HTML and imag](/screenshots/2html:css:img.png)
 
 
 
