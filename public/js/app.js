@@ -59,7 +59,7 @@
 
 
     var dataRequest = {
-        send: function (searchQuery, cb) {
+        get: function (searchQuery, cb) {
             var urlData = { // URL elements, with a function to tape them together
                 baseUrl : "http://localhost:3000/api/",
                 searchQuery: searchQuery,
@@ -69,28 +69,25 @@
             };
 
             var urlRequest = urlData.request();
-            console.log(urlRequest);
 
             urlRequest.then( // start request to API with a promise
-                                
                 function(data, xhr) {
-                    console.log(data, xhr);
                     if (xhr.response) { 
                         var requestData = xhr.response; 
-                        console.log(requestData);
-                        //return requestData;
                         return cb(requestData);
                     } else {
-                        console.log(xhr.response);
-                        alert("We hebben helaas geen pagina kunnen vinden."); // if no movie data give the user feedback
+                        alert("We hebben helaas geen pagina kunnen vinden."); // if no data give the user feedback
                         console.error(data, xhr.status); // log the error
                     }
-                },
-                function(data, xhr) { // if something goes horribly wrong.....
-                    alert("Onze excuses! Er is iets mis gegaan bij het laden van de pagina. Controleer de internetverbinding en herlaad de pagina.");
-                    console.error(data, xhr.status);
                 }
             );
+        },
+        insert: function (id) {
+            dataRequest.get(id, function (requestData) {
+                console.log(requestData);
+                document.querySelector('main').innerHTML = requestData;
+                appearance();
+            });
         }
     };
 
@@ -102,28 +99,17 @@
         links[i].addEventListener('click', function(event) {
             event.preventDefault();
             history.pushState(null, null, event.target.pathname);
-            // window.location.href = event.target.href;
-            // xhr request!!
-            var id = "appearance/" + event.target.dataset.uuid;
-            dataRequest.send(id, function (requestData) {
-                console.log(requestData);
-                document.querySelector('main').innerHTML = requestData;
-            });
+
+            dataRequest.insert("appearance/" + event.target.dataset.uuid);
         });
     };
 
     window.onpopstate = function (e) {
-        console.log(window.location);
         if (window.location.pathname == "/") {
-            dataRequest.send("feed" , function (requestData) {
-            document.querySelector('main').innerHTML = requestData;
-            });
+            dataRequest.insert("feed");
         } else {
             var id = window.location.href.split('/');
-            dataRequest.send(id[4], function (requestData) {
-                console.log(requestData);
-                document.querySelector('main').innerHTML = requestData;
-            });
+            dataRequest.insert(id[4]);
         };
     };
 
