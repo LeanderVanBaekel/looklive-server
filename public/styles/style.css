@@ -145,12 +145,13 @@ main {
     max-width: 100%;
     position: absolute;
     top: 0;
-    left: 100%;
-    transition: left .3s;
+    transform: translateX(100%);
+    xleft: 100%;
+    transition: all .3s;
 }
 
-.product.product-active {
-    left: 0;
+.product-active {
+    transform: translateX(0);
 }
 
 .appearance-products h1 {
