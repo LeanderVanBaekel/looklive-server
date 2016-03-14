@@ -129,7 +129,7 @@ main {
     border-radius: 50%;
 }
 
-.product-indicator.product-indicator-active {
+.product-indicator-active {
     background-color: #b4da55;
 }
 
