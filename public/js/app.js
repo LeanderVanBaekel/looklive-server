@@ -61,7 +61,7 @@
     var dataRequest = {
         get: function (searchQuery, cb) {
             var urlData = { // URL elements, with a function to tape them together
-                baseUrl : "http://localhost:3000/api/",
+                baseUrl : "https://localhost:3000/api/",
                 searchQuery: searchQuery,
                 request : function(){
                         return pegasus(this.baseUrl + this.searchQuery);
