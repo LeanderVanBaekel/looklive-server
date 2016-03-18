@@ -1,0 +1,13 @@
+{
+  "background_color": "#ec2400",
+  "name": "Looklive",
+  "short_name": "Looklive",
+  "display": "standalone",
+  "icons": [
+    {
+      "src": "icon144x144.png",
+      "sizes": "144x144",
+      "type": "image/png"
+    }
+  ]
+}
