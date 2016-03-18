@@ -1,44 +1,21 @@
-<!-- # HTML/CSS optimisation
+# Looklive Server
 
-## Baseline
+[link naar de online site](https://leandervanbaekel.nl)
 
-Feed speed test
-![Feed baseline](/screenshots/master_speed_test-feed.png)
+# Service Worker
 
-Detail speed test
-![Detail baseline](/screenshots/master_speed_test-detail.png)
+Op dit moment wordt de JS, CSS en de html opgeslagen in de cache zodat deze bij het volgende bezoek sneller getoont kunnen worden.
 
 
-## Optimise HTML & CSS
+# Progressive Web App
 
-Feed speed test
-![Feed exercise2](/screenshots/html-css_speed_test-feed.png)
+Wat is een PWA? Een PWA is een website die deels of helemaal gecached kan worden zodat hij ook offline werkt. Doormiddel van een Manifest kan de web app op de telfoon van de gebruiker als 'native app' worden geinstalleerd. 
 
-Detail speed test
-![Detail exercise2](/screenshots/html-css_speed_test-detail.png)
-
-## Optimise Image
-
-Before optimising the header image
-![Before optimising the header image](/screenshots/html-old_image_speed_test-feed.png)
-
-After optimising the header image
-![After optimising the header image](/screenshots/new_image_speed_test-feed.png)
-
-After changing icons to inline svg's
-![After changing icons to inline svg's](/screenshots/icons_to_svg-speed_test-feed.png)
-
-
-## Optimising javascript
-
-After removing the Jquery script
-![After changing icons to inline svg's](/screenshots/old_image_speed_test-feed.png)
+Ik denk (hoop) dat PWA's heel belangrijk gaan worden in de toekomst. Het is een hele mooie middenweg tussen een native app en een website. Het neemt de moeite weg van het installeren van een applicatie en van het googlen of intypen van een url van een website. 
 
 
 
- -->
-
- # HTML/CSS optimisation
+# HTML/CSS optimisation
 
 ## Baseline
 
