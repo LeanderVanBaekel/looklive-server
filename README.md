@@ -13,7 +13,7 @@ Wat is een PWA? Een PWA is een website die deels of helemaal gecached kan worden
 
 Ik denk (hoop) dat PWA's heel belangrijk gaan worden in de toekomst. Het is een hele mooie middenweg tussen een native app en een website. Het neemt de moeite weg van het installeren van een applicatie en van het googlen of intypen van een url van een website. 
 
-
+Aan de Looklive-server heb ik zelf ook een manifest toegevoegd. Ik kan hem helaas niet testen omdat ik geen android device tot mijn beschikking heb.
 
 # HTML/CSS optimisation
 
