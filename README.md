@@ -1,6 +1,6 @@
 # Looklive Server
 
-[link naar de online site](https://leandervanbaekel.nl)
+[link naar de online site](https://looklive.leandervanbaekel.nl)
 
 # Service Worker
 
