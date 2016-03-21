@@ -55,6 +55,7 @@
         if (/appearance/.test(window.location.href)) {
             appearance();
         }
+        sw();
     });
 
 
