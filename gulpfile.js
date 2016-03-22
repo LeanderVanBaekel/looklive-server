@@ -1,10 +1,17 @@
-var gulp = require('gulp');
- 
-gulp.task('default', function() {
-  // This does nothing for now, we'll add functionality soon
+var gulp   = require('gulp');
+var jshint = require('gulp-jshint');
+var stylish = require('jshint-stylish');
+
+
+gulp.task('default', ['watch']);
+
+gulp.task('jshint', function() {
+  return gulp.src('source/javascript/**/*.js')
+    .pipe(jshint())
+    .pipe(jshint.reporter('jshint-stylish'));
 });
 
-gulp.task('copy', function() {
-	return gulp.src('to-copy.txt')
-		.pipe(gulp.dest('dev'));
+gulp.task('watch', function() {
+  gulp.watch('public/js/**/*.js', ['stylish']);
 });
+
