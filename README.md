@@ -22,8 +22,19 @@ De mobiele gebruikers zullen blij met me zijn! :tada:
 
 # Webfonts
 
-Bronnen:
+Als eerst ben ik gaan lezen over wat er allemaal mogelijk is om webfonts te optimaliseren. er zijn een hoop tips en trucs.
 
+Ik heb gekeken wat [Font Squirrel](http://www.fontsquirrel.com/tools/webfont-generator) voor mij zou kunnen betekenen. Dit zou maar een paar KB schelen per font.
+
+Ik heb ook geprobeerd de [fonts inline](https://www.youtube.com/watch?v=G5ZmSVK7CHo) in de CSS te zetten. Dit heeft als voordeel dat je niet extra HTTP request hoeft uit te voeren. Het nadeel is wel dat de stylesheet veel groter wordt. Het stylesheet is 'render-blocking' en dus zit je alsnog langer te wachten tot de pagina weergegeven is. Een ander nadeel daarvan is ook dat je eventueel onnodige fonts aan het laden bent.
+
+De fonts zouden ook gecached kunnen worden in de browser van de gebruiker. echter zit je dan nogsteeds met het probleem dat je het eerste bezoek lang moet wachten. Ook is dit vaak niet legaal.
+
+Ook heb ik gekeken naar de oplossing van de [Filament group](https://www.filamentgroup.com/lab/font-loading.html). Dit leek mij wel een interesante oplossing. Hiervoor gebruik je een combinatie van CSS en javascript om eerst het fallback font te laten zien en pas daarna het webfont te downloaden en weer te geven. Het nadeel hieraan vind ik dat je afhankelijk bent van javascript 
+
+
+Andere bronnen:
+[link](https://developers.google.com/web/fundamentals/performance/optimizing-content-efficiency/webfont-optimization?hl=en)
 
 
 # HTML/CSS optimisation
