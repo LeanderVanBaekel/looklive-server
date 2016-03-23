@@ -62,7 +62,7 @@
     var dataRequest = {
         get: function (searchQuery, cb) {
             var urlData = { // URL elements, with a function to tape them together
-                baseUrl : "https://leandervanbaekel.nl/api/",
+                baseUrl : "https://looklive.leandervanbaekel.nl/api/",
                 searchQuery: searchQuery,
                 request : function(){
                         return pegasus(this.baseUrl + this.searchQuery);

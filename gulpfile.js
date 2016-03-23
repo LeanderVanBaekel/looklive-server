@@ -7,7 +7,7 @@ var pngquant = require('imagemin-pngquant');
 gulp.task('default', ['minifyJS', 'minifyCSS', 'imageMin']);
 
 gulp.task('minifyJS', function() {
-	return gulp.src('public/**/*.js')
+	return gulp.src(['/public/js/**/*.js'])
 		.pipe(uglify())
 		.pipe(gulp.dest('public/build/js/'));
 });
