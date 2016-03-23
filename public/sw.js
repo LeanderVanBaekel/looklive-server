@@ -5,8 +5,8 @@ this.addEventListener('install', event => {
 	    caches.open('looklive-v1').then(cache => {
 	    	return cache.addAll([
 	        	'/',
-	        	'/styles/style.css',
-	        	'/js/app.js'
+	        	'/build/styles/style.css',
+	        	'/build/js/app.js'
 	    	]);
 	    })
 	);
