@@ -9,6 +9,21 @@ Echter lijkt Gulp de beste optie.
 - De Gulp syntax lijkt/is makkelijker dan Grunt
 
 
+# Gulp
+
+Voor gulp heb ik gebruikt gemaakt van Uglify, cleanCSS en Imagemin.
+
+Hiermee heb ik de volgende resultaten behaald:
+javascript bestanden: 11kb > 2kb
+CSS bestanden: 3kb > 2kb
+Images: 164kb > 145kb
+
+De mobiele gebruikers zullen blij met me zijn! :tada:
+
+# Webfonts
+
+Bronnen:
+
 
 
 # HTML/CSS optimisation

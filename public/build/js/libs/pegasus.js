@@ -1,0 +1,1 @@
+function pegasus(e,t){return t=new XMLHttpRequest,t.open("GET",e),e=[],t.onreadystatechange=t.then=function(n,a,s,r){if(n&&n.call&&(e=[,n,a]),4==t.readyState&&(s=e[0|t.status/200])){try{r=JSON.parse(t.responseText)}catch(u){r=null}s(r,t)}},t.send(),t}
